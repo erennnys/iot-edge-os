@@ -16,7 +16,7 @@
 
 // Max limits to prevent dynamic allocation fragmentation
 const uint8_t MAX_CONFIGURED_PINS = 16;
-const uint8_t MAX_SERVOS = 4;
+const uint8_t MAX_DYNAMIC_SERVOS = 4;
 const uint8_t MAX_STEPPERS = 2;
 const uint8_t MAX_DHTS = 4;
 const uint8_t MAX_DSS = 4;
@@ -145,9 +145,9 @@ private:
 
   // Static allocation of peripheral objects
   #if defined(ESP8266)
-    Servo servos[MAX_SERVOS];
+    Servo servos[MAX_DYNAMIC_SERVOS];
   #elif defined(ESP32)
-    ESP32ServoLEDC servos[MAX_SERVOS];
+    ESP32ServoLEDC servos[MAX_DYNAMIC_SERVOS];
   #endif
   uint8_t servoCount = 0;
 
@@ -290,7 +290,7 @@ public:
         #endif
       }
       else if (strcmp(entry.mode, "SRV") == 0) {
-        if (servoCount < MAX_SERVOS) {
+        if (servoCount < MAX_DYNAMIC_SERVOS) {
           #if defined(ESP8266)
             servos[servoCount].attach(entry.gpioPins[0]);
           #elif defined(ESP32)
