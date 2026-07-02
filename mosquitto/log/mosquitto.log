@@ -1,0 +1,85 @@
+1782986974: mosquitto version 2.0.18 starting
+1782986974: Config loaded from /mosquitto/config/mosquitto.conf.
+1782986974: Opening ipv4 listen socket on port 1883.
+1782986974: mosquitto version 2.0.18 running
+1782986975: New connection from 172.20.0.3:57846 on port 1883.
+1782986975: New client connected from 172.20.0.3:57846 as iot_backend_main_17a15fd5 (p2, c1, k60).
+1782986986: New connection from 127.0.0.1:35566 on port 1883.
+1782986986: New client connected from 127.0.0.1:35566 as auto-77790FEC-5201-4BB5-1F49-B15BCF49BBAB (p2, c1, k60).
+1782986986: Client auto-77790FEC-5201-4BB5-1F49-B15BCF49BBAB disconnected.
+1782986986: New connection from 127.0.0.1:35568 on port 1883.
+1782986986: New client connected from 127.0.0.1:35568 as auto-0209E753-6178-80D3-E387-603F79B6E419 (p2, c1, k60).
+1782986986: Client auto-0209E753-6178-80D3-E387-603F79B6E419 disconnected.
+1782987003: Client iot_backend_main_17a15fd5 closed its connection.
+1782987004: New connection from 172.20.0.3:32808 on port 1883.
+1782987004: New client connected from 172.20.0.3:32808 as iot_backend_main_49e357fd (p2, c1, k60).
+1782987015: New connection from 127.0.0.1:51978 on port 1883.
+1782987015: New client connected from 127.0.0.1:51978 as auto-15640445-EC44-804B-EFF1-73905980A456 (p2, c1, k60).
+1782987015: Client auto-15640445-EC44-804B-EFF1-73905980A456 disconnected.
+1782987029: Client iot_backend_main_49e357fd closed its connection.
+1782987029: New connection from 172.20.0.3:54920 on port 1883.
+1782987029: New client connected from 172.20.0.3:54920 as iot_backend_main_f4311b22 (p2, c1, k60).
+1782987049: Client iot_backend_main_f4311b22 closed its connection.
+1782987049: mosquitto version 2.0.18 terminating
+1782987049: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1782987075: mosquitto version 2.0.18 starting
+1782987075: Config loaded from /mosquitto/config/mosquitto.conf.
+1782987075: Opening ipv4 listen socket on port 1883.
+1782987075: mosquitto version 2.0.18 running
+1782987075: New connection from 172.20.0.3:45238 on port 1883.
+1782987075: New client connected from 172.20.0.3:45238 as iot_backend_main_50d26c00 (p2, c1, k60).
+1782987080: New connection from 127.0.0.1:35534 on port 1883.
+1782987080: New client connected from 127.0.0.1:35534 as auto-9D44E016-F380-17DE-D14D-2695C7C771D6 (p2, c1, k60).
+1782987080: Client auto-9D44E016-F380-17DE-D14D-2695C7C771D6 disconnected.
+1782987080: New connection from 127.0.0.1:35544 on port 1883.
+1782987080: New client connected from 127.0.0.1:35544 as auto-42259507-5ECD-A086-E205-CC92EFDD8BF8 (p2, c1, k60).
+1782987080: Client auto-42259507-5ECD-A086-E205-CC92EFDD8BF8 disconnected.
+1782987084: Client iot_backend_main_50d26c00 disconnected.
+1782987091: New connection from 172.20.0.3:34024 on port 1883.
+1782987091: New client connected from 172.20.0.3:34024 as iot_backend_main_b29663ea (p2, c1, k60).
+1782987099: New connection from 127.0.0.1:56398 on port 1883.
+1782987099: New client connected from 127.0.0.1:56398 as auto-9178DF6A-0CF5-426A-7ECE-5C154DC0F1C9 (p2, c1, k60).
+1782987099: Client auto-9178DF6A-0CF5-426A-7ECE-5C154DC0F1C9 disconnected.
+1782987099: Client iot_backend_main_b29663ea disconnected.
+1782987103: New connection from 172.20.0.3:46084 on port 1883.
+1782987103: New client connected from 172.20.0.3:46084 as iot_backend_main_6fc2a256 (p2, c1, k60).
+1782987107: New connection from 127.0.0.1:55050 on port 1883.
+1782987107: New client connected from 127.0.0.1:55050 as auto-3D0A6486-6CF4-B617-2E28-EDAB1757280B (p2, c1, k60).
+1782987107: Client auto-3D0A6486-6CF4-B617-2E28-EDAB1757280B disconnected.
+1782987110: Client iot_backend_main_6fc2a256 disconnected.
+1782987117: New connection from 172.20.0.3:45098 on port 1883.
+1782987117: New client connected from 172.20.0.3:45098 as iot_backend_main_982c22f9 (p2, c1, k60).
+1782987142: New connection from 127.0.0.1:48390 on port 1883.
+1782987142: New client connected from 127.0.0.1:48390 as auto-54F11210-DFF3-6C0A-3920-141516D026D6 (p2, c1, k60).
+1782987142: Client auto-54F11210-DFF3-6C0A-3920-141516D026D6 disconnected.
+1782987146: Client iot_backend_main_982c22f9 disconnected.
+1782987154: New connection from 172.20.0.3:57266 on port 1883.
+1782987154: New client connected from 172.20.0.3:57266 as iot_backend_main_78e8fd53 (p2, c1, k60).
+1782988869: Client iot_backend_main_78e8fd53 disconnected.
+1782988870: mosquitto version 2.0.18 terminating
+1782988870: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1782988870: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1782988870: Error: Permission denied.
+1782988872: mosquitto version 2.0.18 starting
+1782988872: Config loaded from /mosquitto/config/mosquitto.conf.
+1782988872: Opening ipv4 listen socket on port 1883.
+1782988872: mosquitto version 2.0.18 running
+1782988872: New connection from 172.20.0.3:57748 on port 1883.
+1782988872: New client connected from 172.20.0.3:57748 as iot_backend_main_f496b97e (p2, c1, k60).
+1782989724: Client iot_backend_main_f496b97e disconnected.
+1782989724: mosquitto version 2.0.18 terminating
+1782989724: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1782989724: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1782989724: Error: Permission denied.
+1782989753: mosquitto version 2.0.18 starting
+1782989753: Config loaded from /mosquitto/config/mosquitto.conf.
+1782989753: Opening ipv4 listen socket on port 1883.
+1782989753: mosquitto version 2.0.18 running
+1782989753: New connection from 172.20.0.3:53264 on port 1883.
+1782989753: New client connected from 172.20.0.3:53264 as iot_backend_main_398235e2 (p2, c1, k60).
+1782990626: New connection from 127.0.0.1:39046 on port 1883.
+1782990626: New client connected from 127.0.0.1:39046 as auto-75B99180-30AC-3D1D-2968-C6389A7F6C7E (p2, c1, k60).
+1782990626: Client auto-75B99180-30AC-3D1D-2968-C6389A7F6C7E disconnected.
+1782990660: Client iot_backend_main_398235e2 disconnected.
+1782990661: New connection from 172.20.0.3:40866 on port 1883.
+1782990661: New client connected from 172.20.0.3:40866 as iot_backend_main_3bd6c46d (p2, c1, k60).

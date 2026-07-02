@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Production frontend builds
+frontend/dist/
+
+# SQLite databases & temp files
+backend/data/
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Local environment configuration
+.env
+.env.local
+.env.*.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE configuration
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  mqtt:
+    image: eclipse-mosquitto:2.0.18
+    container_name: iot_mqtt
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    restart: always
+
+  backend:
+    build: ./backend
+    container_name: iot_backend
+    depends_on:
+      - mqtt
+    environment:
+      - NODE_ENV=production
+      - MQTT_BROKER_URL=mqtt://mqtt:1883
+      - DB_PATH=/app/data/iot_os.db
+      - TELEMETRY_FLUSH_INTERVAL_MS=300000 # 5 minutes (300000ms)
+      - TELEMETRY_MAX_BUFFER_SIZE=1000 # flush early if we hit 1000 records
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend/data:/app/data
+    restart: always

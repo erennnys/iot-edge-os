@@ -1,0 +1,16 @@
+{
+  "name": "iot-os-backend",
+  "version": "1.0.0",
+  "description": "IoT OS Edge Backend with WAL SQLite RAM Buffer Engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.1.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mqtt": "^5.10.1",
+    "node-cron": "^3.0.3"
+  }
+}
