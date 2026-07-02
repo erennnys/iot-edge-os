@@ -1,6 +1,6 @@
 # IoT Edge OS (Omega OS)
 
-Omega OS is a robust, modular, and fully local IoT Operating System (Blynk/Sinric Pro alternative) designed for edge-computing networks. It runs on lightweight Debian home servers inside Docker and deploys dynamic configuration matrices to ESP32, ESP8266, and ESP-01/S microcontrollers.
+Omega OS is a modular and fully local IoT gateway and automation operating system designed for edge-computing networks. It runs on lightweight Debian home servers inside Docker and deploys dynamic configuration matrices to ESP32, ESP8266, and ESP-01/S microcontrollers.
 
 ---
 
