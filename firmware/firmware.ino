@@ -23,19 +23,17 @@ PinManager pinManager;
 LocalRulesEngine localRulesEngine;
 
 // Link functions used by wifi_mqtt.h callbacks
-extern "C" {
-  void reloadPeripheralsDynamic() {
-    pinManager.loadAndSetupPeripherals();
-  }
-  void reloadRulesDynamic() {
-    localRulesEngine.loadLocalRules();
-  }
-  void handlePeripheralAction(uint8_t pin, const char* value) {
-    pinManager.handleWriteAction(pin, value);
-  }
-  void evaluateLocalRules(uint8_t pin, const char* value) {
-    localRulesEngine.evaluate(pin, value);
-  }
+void reloadPeripheralsDynamic() {
+  pinManager.loadAndSetupPeripherals();
+}
+void reloadRulesDynamic() {
+  localRulesEngine.loadLocalRules();
+}
+void handlePeripheralAction(uint8_t pin, const char* value) {
+  pinManager.handleWriteAction(pin, value);
+}
+void evaluateLocalRules(uint8_t pin, const char* value) {
+  localRulesEngine.evaluate(pin, value);
 }
 
 // FreeRTOS Task and Watchdog Definitions for ESP32

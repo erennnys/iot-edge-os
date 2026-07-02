@@ -50,7 +50,7 @@ inline void setWiFiChannel(uint8_t channel) {
 }
 
 // Initialize ESP-NOW
-inline void initEspNow() {
+void initEspNow() {
   if (espNowActive) return;
 
   #if defined(ESP32)
@@ -111,7 +111,7 @@ inline bool sendEspNowBroadcast(uint8_t type, const char* payload) {
 }
 
 // Setup ESP-NOW Failover Mode (triggered when WiFi Client fails)
-inline void setupEspNowFailover() {
+void setupEspNowFailover() {
   Serial.println(F("[Failover] Setting up ESP-NOW only mode..."));
   
   // Set channel to last known working channel of the router
