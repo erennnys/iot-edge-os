@@ -21,6 +21,7 @@ extern WiFiClient wifiClient;
 extern PubSubClient mqttClient;
 extern DNSServer dnsServer;
 extern WebServerClass* server;
+extern uint8_t activeChannel;
 
 // Network State machine
 enum NetworkState {
