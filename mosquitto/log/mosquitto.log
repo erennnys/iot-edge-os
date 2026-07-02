@@ -83,3 +83,17 @@
 1782990660: Client iot_backend_main_398235e2 disconnected.
 1782990661: New connection from 172.20.0.3:40866 on port 1883.
 1782990661: New client connected from 172.20.0.3:40866 as iot_backend_main_3bd6c46d (p2, c1, k60).
+1782991554: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1782991554: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1782991554: Error: Permission denied.
+1782991954: Client iot_backend_main_3bd6c46d disconnected.
+1782991954: mosquitto version 2.0.18 terminating
+1782991954: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1782991954: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1782991954: Error: Permission denied.
+1782991956: mosquitto version 2.0.18 starting
+1782991956: Config loaded from /mosquitto/config/mosquitto.conf.
+1782991956: Opening ipv4 listen socket on port 1883.
+1782991956: mosquitto version 2.0.18 running
+1782991957: New connection from 172.20.0.3:52644 on port 1883.
+1782991957: New client connected from 172.20.0.3:52644 as iot_backend_main_4ffa0aa5 (p2, c1, k60).
