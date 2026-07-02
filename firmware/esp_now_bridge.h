@@ -81,11 +81,7 @@ inline bool sendEspNowBroadcast(uint8_t type, const char* payload) {
   EspNowPacket packet;
   // Get self MAC address
   uint8_t selfMac[6];
-  #if defined(ESP32)
-    esp_read_mac(selfMac, ESP_MAC_WIFI_STA);
-  #elif defined(ESP8266)
-    wifi_get_macaddr(STATION_IF, selfMac);
-  #endif
+  WiFi.macAddress(selfMac);
 
   memcpy(packet.mac, selfMac, 6);
   packet.type = type;

@@ -7,11 +7,13 @@
 #if defined(ESP32)
   #include <FS.h>
   #include <LittleFS.h>
+  #include <WiFi.h>
   #define BOARD_TYPE "ESP32"
   #define FS_SYSTEM LittleFS
 #elif defined(ESP8266)
   #include <FS.h>
   #include <LittleFS.h>
+  #include <ESP8266WiFi.h>
   #define BOARD_TYPE "ESP8266"
   #define FS_SYSTEM LittleFS
 #else
@@ -35,11 +37,7 @@ extern String cleanedMac;
 // Clean MAC address Helper
 inline String getCleanedMac() {
   uint8_t mac[6];
-  #if defined(ESP32)
-    esp_read_mac(mac, ESP_MAC_WIFI_STA);
-  #elif defined(ESP8266)
-    wifi_get_macaddr(STATION_IF, mac);
-  #endif
+  WiFi.macAddress(mac);
   
   char macStr[13];
   snprintf(macStr, sizeof(macStr), "%02X%02X%02X%02X%02X%02X", 
